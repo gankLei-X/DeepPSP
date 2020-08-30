@@ -14,7 +14,7 @@ DeepPSP provides the prediction of general and kinase-specific phosphorylation s
 
 If you want to predict general site, run:
 
-    python predict.py -input ...\DATASET\test_ST.fasta -predict-type general -output ...\result_general_model_ST -residue ST
+    python predict.py -input ...\DATASET\test_general_ST.fasta -predict-type general -output ...\result_general_model_ST -residue ST
     
 If you want to predict kinase-specific site, taking MAPK as a example, run:
 
