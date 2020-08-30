@@ -386,7 +386,7 @@ def write_result(modelname,indexs,name,site_types,result_probe,outputfile):
                 f.write('\t')
                 f.write(site_types[k][u])
                 f.write('\t')
-                f.write(str(result_probe[num]))
+                f.write(str(result_probe[num,0]))
                 f.write('\n')
                 num +=1
 
