@@ -13,7 +13,7 @@ def main():
         description='DeepPSP: a prediction tool for general, kinase-specific phosphorylation prediction')
     parser.add_argument('-input', dest='inputfile', type=str, help='Data format of prediction should be .fasta',
                         required=True)
-    parser.add_argument('-predict',
+    parser.add_argument('-predict-type',
                         dest='predicttype',
                         type=str,
                         help='predict types. \'general\' for general human phosphorylation site prediction by models pre-trained in DeepPSP. \n \
