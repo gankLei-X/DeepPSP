@@ -26,7 +26,7 @@ If you want to predict kinase-specific site, taking MAPK as a example, run:
 
 if you want to train for general site, then run:
 
-    python train.py -input ...\DATASET\test_general_ST###.fasta -train-type general -residue ST   
+    python train.py -input ...\DATASET\train_general_ST###.fasta -train-type general -residue ST   
 
 if you want to train for kinase-specific site, taking MAPK as a example, then run:
 
