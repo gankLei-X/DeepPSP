@@ -1,3 +1,3 @@
 # Model weight
 
-Model weight can be download in 
+Model weight can be download in https://drive.google.com/drive/folders/1sCjwoJJJDpXSIZVXRocX3dcj-IsX-1eO?usp=sharing
