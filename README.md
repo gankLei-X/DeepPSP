@@ -6,7 +6,7 @@ DeepPSP provides the prediction of general and kinase-specific phosphorylation s
 
     keras==2.1.2
     
-    tensorflow == 1.14.0
+    tensorflow==1.14.0
 
     numpy>=1.8.0
 
