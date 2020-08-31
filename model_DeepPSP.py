@@ -191,7 +191,6 @@ def Deep_PSP_model_testing(X_test, X_test_2, modelname,X_val1, X_val2,Y_val):
 
         model = create_model([51, 21],[2000,21],128,100)
 
-        print(weight_file +'\\' + 'weights%d'%(i+1))
         model.load_weights(weight_file +'\\' + 'weights%d'%(i+1))
 
         X_predict_test[:,i*2:(i+1)*2] = model.predict([X_test, X_test_2])
