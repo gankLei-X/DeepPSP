@@ -23,6 +23,8 @@ If you want to predict general site, run:
 If you want to predict kinase-specific site, taking MAPK as a example, run:
 
     python predict.py -input ...\DATASET\test_MAPK.fasta -predict-type kinase -kinase MAPK -output ...\result_kinase_model_MAPK -residue ST
+ 
+ Output file including three columns, position, residue type and score. The larger the score, the more likely this site is to be phosphorylated.
 
 # Train For Your own Data
 
