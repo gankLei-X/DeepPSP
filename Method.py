@@ -390,4 +390,4 @@ def write_result(modelname,indexs,name,site_types,result_probe,outputfile):
                 f.write('\n')
                 num +=1
 
-    print('Successfully predict the phosphorylation site !')
+    print('Successfully predict the phosphorylation site ! prediction results are stored in ' + modelname + outputfile)
