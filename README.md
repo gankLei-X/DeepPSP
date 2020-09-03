@@ -18,7 +18,7 @@ DeepPSP provides the prediction of general and kinase-specific phosphorylation s
 
 cd to the DeepPSP fold
 
-If you want to predict general site, run:
+If you want to predict general site, taking S/T site as a example, run:
 
     python predict.py -input ...\DATASET\test_general_ST.fasta -predict-type general -output ...\result_general_model_ST -residue ST
     
@@ -26,7 +26,7 @@ If you want to predict kinase-specific site, taking MAPK as a example, run:
 
     python predict.py -input ...\DATASET\test_MAPK.fasta -predict-type kinase -kinase MAPK -output ...\result_kinase_model_MAPK -residue ST
  
- Output file includes three columns, position, residue type and score. The larger the score, the more likely this site is to be phosphorylated.
+ Output file includes three columns, position, residue type and score. The value range of score is [0, 1], with values closer to 1 indicating the site is more likely to be phosphorylated.
 
 # Train For Your own Data
 
