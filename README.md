@@ -16,6 +16,8 @@ DeepPSP provides the prediction of general and kinase-specific phosphorylation s
 
 # Predict For Your Test Data
 
+cd to the DeepPSP fold
+
 If you want to predict general site, run:
 
     python predict.py -input ...\DATASET\test_general_ST.fasta -predict-type general -output ...\result_general_model_ST -residue ST
