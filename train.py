@@ -1,6 +1,6 @@
 import matplotlib
 matplotlib.use('Agg')
-from Method import get_Matrix_Label,get_Matrix_Label_3
+from Method import get_Matrix_Label
 from model_DeepPSP import Deep_PSP_model_training
 import argparse
 
@@ -33,7 +33,7 @@ def main():
     m = 25
     n = 25
 
-    X_train_positive, X_train_negative, global_train_positive, global_train_negative, Y, X_val1, X_val2,Y_val = get_Matrix_Label_3(inputfile,residues, m, n)
+    X_train_positive, X_train_negative, global_train_positive, global_train_negative, Y, X_val1, X_val2,Y_val = get_Matrix_Label(inputfile,residues, m, n)
 
     if traintype == 'general':
         modelname = "general_model_{:s}".format(residues)
