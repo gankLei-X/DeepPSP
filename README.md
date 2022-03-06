@@ -44,4 +44,9 @@ Note that pre-training model would been loaded before kinase-specific site train
     
 # Contact
 
-Please contact me if you have any help: gl5121405@gmail.com
+Please contact me if you have any help: gankLei@stu.xmu.edu.cn
+
+# Citation
+
+Guo L , Y Wang, Xu X , et al. DeepPSP: A Global–Local Information-Based Deep Neural Network for the Prediction of Protein Phosphorylation Sites[J]. Journal of Proteome Research, 2020, 20(1).
+
