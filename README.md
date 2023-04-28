@@ -44,7 +44,7 @@ Note that pre-training model would been loaded before kinase-specific site train
     
 # Contact
 
-Please contact me if you have any help: gankLei@stu.xmu.edu.cn
+Please contact me if you have any help: gl5121405@gmail.com
 
 # Citation
 
